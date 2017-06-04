@@ -103,6 +103,8 @@ ul.lista li:before{
     
 }
 
+/*zadanie 6*/
+
 .formularz{
     width:400px;
     height: 150px;
@@ -122,6 +124,12 @@ form input{
     margin: 10px;
 }
 
+/*zadanie 7*/
 
-
+a[href$=".doc"]{
+    color:aqua;
+}
+a[href$=".docx"]{
+    color:coral;
+}
 
