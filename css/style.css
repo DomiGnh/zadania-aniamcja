@@ -14,3 +14,37 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.przycisk {
+    margin-top: 200px;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    position: relative;
+}
+
+.przycisk > i{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
