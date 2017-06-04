@@ -133,4 +133,28 @@ a[href$=".docx"]{
     color:coral;
 }
 
-/**/
+/*zadanie 8*/
+
+blockquote:lang(en)::before, blockquote:lang(en)::after{
+    content:"*";
+}
+
+q:lang(en)::before, q:lang(en)::after{
+    content:"*";
+}
+
+blockquote:lang(de)::before, blockquote:lang(de)::after{
+    content:"'";
+}
+
+
+
+
+
+
+
+
+
+
+
+
