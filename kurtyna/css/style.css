@@ -1,0 +1,44 @@
+*{
+    margin:0;
+}
+body{
+    background-color: bisque;
+    
+}
+
+div{
+    width: 100%;
+   margin-top:0;
+}
+
+.kurtyna1{
+    background-color: aqua;
+    animation-name: kurtyna;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+    position: fixed;
+    top:0;
+    
+}
+
+.kurtyna2{
+     background-color:cornflowerblue;
+    animation-name: kurtyna;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+    position: fixed;
+    bottom: 0;
+}
+
+@keyframes kurtyna{
+    0% {
+        height: 0;
+    }
+
+    
+    50%{
+        height:50vh;
+    }
+}
+
+
