@@ -162,14 +162,37 @@ footer{
     left: 0;
     position: fixed;
     width: 100%;
+    
 }
 footer p{
     margin: 0;
 } 
     
 
+/*zadanie 10*/
+.hawaii{
+    width: 400px;
+    height: 250px;
+    border: 3px solid black;
+    left: 200px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    overflow:hidden;
+/*
+    background-image: url(../hawaje-ikona-300x215.jpg);
+    background-size: cover;
+    background-position: center;
+    
+*/
+}
+img{
+    width: 400px;
+    height: 250px;
+}
 
-
+img:hover{
+    transform: scale(1.5);
+}
 
 
 
