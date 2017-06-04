@@ -103,6 +103,24 @@ ul.lista li:before{
     
 }
 
+.formularz{
+    width:400px;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin-top: 50px;
+    
+}
+
+
+form input{
+    width: 87%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #2b4a64;
+    border: #2b4a64 0px;
+    color:coral;
+    margin: 10px;
+}
 
 
 
