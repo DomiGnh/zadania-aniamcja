@@ -135,7 +135,9 @@ a[href$=".docx"]{
 
 /*zadanie 8*/
 
-blockquote:lang(en)::before, blockquote:lang(en)::after{
+blockquote:lang(en)::before,
+blockquote:lang(en)::after
+{
     content:"*";
 }
 
@@ -143,12 +145,28 @@ q:lang(en)::before, q:lang(en)::after{
     content:"*";
 }
 
-blockquote:lang(de)::before, blockquote:lang(de)::after{
+blockquote:not(en)::before, 
+blockquote:not(en)::after{
     content:"'";
 }
 
+/*zadanie 9*/
 
 
+footer{
+   background-color: #142634;
+    color: #fff;
+    padding: 0 80px;
+    text-align:center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+footer p{
+    margin: 0;
+} 
+    
 
 
 
