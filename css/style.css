@@ -194,8 +194,30 @@ img:hover{
     transform: scale(1.5);
 }
 
+/*zadanie 11*/
 
+p.heart{
+    font-size: 50px;
+  text-align: center;
 
+}
+.fa-heart{
+    font-size:15px;
+    color: red;
+    animation-name: serce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
 
+@keyframes serce{
+    0%, 100%{
+    transform: scale(1);
+    }
+    
+    50%{
+        transform: scale(2);
+    }
+}
 
 
